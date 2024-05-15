@@ -29,14 +29,15 @@ export default function ScreenLayout() {
           headerTitleStyle: {
             fontWeight: "bold",
           },
-          headerTitleAlign:"center"
+          headerTitleAlign:"center",
+          
         }}
       >
         <Stack.Screen
           name="index"
           options={{ title: "My Todo", headerShown: true }}
         />
-        <Stack.Screen name="details" />
+        <Stack.Screen name="details" options={{ title: "Details", headerShown: true }} />
       </Stack>
     </ThemeProvider>
   );
