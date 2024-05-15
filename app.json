@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-crush",
-    "slug": "react-native-crush",
+    "name": "tod0",
+    "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
